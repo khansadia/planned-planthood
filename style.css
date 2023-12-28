@@ -8,7 +8,7 @@
     --h3-color: #1E1E1E;
 }
 
-/* global styles  */
+/* global styling  */
 
 * {
     box-sizing: border-box;
@@ -17,17 +17,17 @@
 }
 
 body {
-    background-color: var(--body-bg);
+    background-color: var(body-bg);
 }
 
 li {
     list-style: none;
-        padding: 1.2rem;
+        padding: 1.3rem;
 }
 
 a {
     text-decoration: none;
-    color: var(--green);
+    color: var(green);
     font-size: 20px;
     font-weight: 500;
     font-family: 'Maven Pro', sans-serif;
@@ -103,7 +103,7 @@ button {
 .hero .logo-container {
     background-image: url('./assets/logo-bg-img.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -116,7 +116,7 @@ button {
 }
 
 .hero .seeding {
-    background-color: var(--brown);
+    background-color:  var(--brown);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -221,7 +221,7 @@ button {
 }
 
 .planned-plantations .card {
-    box-shadow: 3px 4px 4px 0px #00000040;
+    box-shadow: 4px 4px 4px 0px #00000040;
 }
 
 .planned-plantations .card-img-container {
@@ -424,7 +424,7 @@ footer .to-up a {
     display: grid;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 2.5rem;
     padding: 2rem;
     background-image: url('https://images.unsplash.com/photo-1586281010691-f9da4be5b1f7?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-repeat: no-repeat;
