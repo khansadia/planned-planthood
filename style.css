@@ -97,7 +97,7 @@ button {
 .hero {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* min-height: 540px; */
+
 }
 
 .hero .logo-container {
@@ -105,9 +105,10 @@ button {
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
-    display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
+    
 }
 
 .hero .hero-right {
@@ -118,9 +119,10 @@ button {
 .hero .seeding {
     background-color:  var(--brown);
     display: flex;
+    padding: 1rem;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    
 }
 
 .hero .dig {
@@ -131,7 +133,11 @@ button {
     padding: 1rem;
 }
 
-.hero .logo-container img, .hero .seeding img, .hero .dig img {
+.hero .logo-container img
+{
+    max-width: 100%;
+}
+.hero .seeding img, .hero .dig img {
     max-width: 100%;
 }
 
